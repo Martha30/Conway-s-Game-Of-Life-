@@ -88,10 +88,5 @@ for i in range(r.width * f ):
     y = random.randint(0, 150)
     r.pixel(x,y, rojo)
 
-while True:
-  pygame.time.delay(110)
-  r.copy()
-  r.clear()
-  r.render()
-  pygame.display.flip()
+
   
